@@ -5,7 +5,7 @@ from pathlib import Path
 
 import pandas as pd
 import streamlit as st
-from schema import FEATURES, validate_features
+from schema import FEATURES,validate_features
 
 ROOT = Path(__file__).resolve().parent
 st.set_page_config(page_title='ABC Delivery Predictor', page_icon='📦', layout='centered')
